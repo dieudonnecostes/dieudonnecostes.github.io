@@ -129,6 +129,7 @@ body {
     font-weight: bold;
     font-size: small;
     color: var(--backgroundColor);
+    white-space: nowrap;
 }
 
 
@@ -288,7 +289,7 @@ p>a {
 
 }
 
-@media screen and (max-width : 700px) {
+@media screen and (max-width : 800px) {
     body {
         display: flex;
         flex-direction: column;
@@ -304,14 +305,17 @@ p>a {
 
     }
 
-    .profile-side{
+    .profile-side {
         height: 100vh;
         min-height: 100vh;
         max-height: 100vh;
     }
 
-    .aboutMe-side{
+    .aboutMe-side {
         height: auto;
+        display: flex;
+        flex-direction: column;
+        /* padding: 1rem; */
     }
 
     .profile-side>img {
@@ -319,5 +323,13 @@ p>a {
         max-height: 40%;
         object-fit: contain;
         background-color: #eaeaea;
+    }
+
+    .about-me-section-left,
+    .about-me-section-right {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        /* border-right: .1rem solid var(--dividerColor); */
     }
 }
