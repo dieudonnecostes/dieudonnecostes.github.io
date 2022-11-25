@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    zoom: 1;
+    user-select: none;
 }
 
 :root {
