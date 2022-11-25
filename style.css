@@ -49,6 +49,7 @@ body {
     width: 50rem;
     row-gap: 2rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    align-items: center;
 }
 
 .aboutMe-side {
@@ -58,10 +59,15 @@ body {
 }
 
 .profile-side>img {
-    height: 50%;
-    max-height: 50%;
-    object-fit: contain;
+    margin-top: 5rem;
+    height: 15rem;
+    max-height: 15rem;
+    width: 15rem;
+    min-width: 15rem;
+    max-width: 15rem;
+    object-fit: cover;
     background-color: #eaeaea;
+    border-radius: 100%;
 }
 
 .overview {
@@ -325,7 +331,7 @@ p>a {
         flex-direction: column;
         padding: 1rem;
     }
-
+/* 
     .profile-side>img {
         height: 40%;
         max-height: 40%;
@@ -333,7 +339,7 @@ p>a {
         background-color: #eaeaea;
         width: 100%;
         max-width: 100%;
-    }
+    } */
 
     .about-me-section-left,
     .about-me-section-right {
