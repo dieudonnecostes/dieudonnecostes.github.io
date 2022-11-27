@@ -64,12 +64,13 @@ body {
     margin-top: 5rem;
     height: 15rem;
     max-height: 15rem;
+    min-height: 15rem;
     width: 15rem;
     min-width: 15rem;
     max-width: 15rem;
-    object-fit: cover;
     background-color: #eaeaea;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .overview {
