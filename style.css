@@ -30,6 +30,30 @@ p {
     color: var(--textColor);
 }
 
+.column-gap-middle {
+    column-gap: .8rem;
+}
+
+.large-title {
+    font-size: clamp(2.3rem, 1.595rem + 2.76vw, 3rem);
+}
+
+.headline1 {
+    font-size: clamp(1.5rem, 1rem + 1.8vw, 2.5rem);
+}
+
+.large-subtitle {
+    font-size: clamp(1rem, 0.5856rem + 2.21vw, 2rem);
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.p-medium {
+    font-size: clamp(1rem, 1.2rem, 2rem);
+}
+
 body {
     display: flex;
     flex-direction: row;
