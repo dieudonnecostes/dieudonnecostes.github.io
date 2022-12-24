@@ -54,6 +54,10 @@ p {
     font-size: clamp(1rem, 1.2rem, 2rem);
 }
 
+.bged-image{
+    background-color: var(--buttonColor);
+}
+
 body {
     display: flex;
     flex-direction: row;
